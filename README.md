@@ -16,35 +16,41 @@ Technologies used to build this app:
 - [Angular 2 Search Filter Pipe](https://www.npmjs.com/package/ng2-search-filter)
 - [FontAwesome](https://fontawesome.com/)
 
-Install NodeJS (https://nodejs.org/en/download/)
+1. Install NodeJS (https://nodejs.org/en/download/)
 
-Install TypeScript
+
+2. Install TypeScript
 ```bash
 npm install -g typescript
 ```
 
-Install AngularCLI
+
+3. Install AngularCLI
 ```bash
 npm install -g @angular/cli
 ```
 
-Install Rxjs
+
+4. Install Rxjs
 ```bash
 npm install rxjs
 ```
 
-Install Sass
+
+5. Install Sass
 ```bash
 npm install -g sass
 ```
 
-install Angular 2 Search Filter Pipe
+
+6. Install Angular 2 Search Filter Pipe
 ```bash
 npm i ng2-search-filter --save
 yarn add ng2-search-filter
 ```
 
-install Font Awesome
+
+7. Install Font Awesome
 ```bash
 npm install --save font-awesome angular-font-awesome
 ```
