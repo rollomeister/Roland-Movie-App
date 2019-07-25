@@ -1,6 +1,53 @@
 # RolandMovieApp
 
+Roland Movie App is an application for viewing details about the latest movies. Details contain title, rating, length, plot description and the movie cover.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.1.
+
+## Installation
+
+Technologies used to build this app:
+- [NodeJS](https://nodejs.org/)
+- [Angular](https://angular.io/) (2 or higher)
+- [Yarn](https://yarnpkg.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Rxjs](https://github.com/ReactiveX/rxjs)
+- [Sass](http://sass-lang.com/)
+- [Angular 2 Search Filter Pipe](https://www.npmjs.com/package/ng2-search-filter)
+- [FontAwesome](https://fontawesome.com/)
+
+Install NodeJS (https://nodejs.org/en/download/)
+
+Install TypeScript
+```bash
+npm install -g typescript
+```
+
+Install AngularCLI
+```bash
+npm install -g @angular/cli
+```
+
+Install Rxjs
+```bash
+npm install rxjs
+```
+
+Install Sass
+```bash
+npm install -g sass
+```
+
+install Angular 2 Search Filter Pipe
+```bash
+npm i ng2-search-filter --save
+yarn add ng2-search-filter
+```
+
+install Font Awesome
+```bash
+npm install --save font-awesome angular-font-awesome
+```
 
 ## Development server
 

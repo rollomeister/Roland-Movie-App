@@ -1,0 +1,22 @@
+<div class="search-movie">
+    <input class="form-control" type="text" name="search" [(ngModel)]="searchText" 
+    autocomplete="off" placeholder='Search &#xf002;'>
+</div>
+
+<div class="grid">
+  <div class="box" *ngFor="let movies of movies | filter: searchText">
+      <h3 class="title">
+          <a [title]="movies.name + ' details'" [routerLink]="['/movies', movies.id]">
+            {{ movies.name }}
+          </a>
+      </h3>
+      
+      <p><i class="fa fa-star" ></i> {{ movies.rate }} / 10</p>
+
+      <p *ngIf="movies.img" class="image">
+          <a [title]="movies.name + ' details'" [routerLink]="['/movies', movies.id]">
+            <img alt="{{ movies.name }}" src="../assets/images/movie-covers/{{movies.img}}"/>
+          </a>
+      </p>
+  </div>
+</div>

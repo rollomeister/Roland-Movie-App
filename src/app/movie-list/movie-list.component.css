@@ -1,0 +1,45 @@
+.form-control {
+    width: 70%;
+    height: 42px;
+    font-family: FontAwesome, Arial; 
+    font-style: normal; 
+    text-align: center;
+    background-color: #FFFAFA;
+    font-size: 3vmin;
+}
+
+.search-movie {
+    text-align: center;
+    margin: 40px;
+}
+
+.title {
+    text-align: center;
+}
+
+.img {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.box {
+    background-color: #CAFAFE;
+    padding-bottom: 10px;
+}
+
+.fa-star {
+    color: rgba(255, 217, 0, 0.945);
+}
